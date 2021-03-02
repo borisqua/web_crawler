@@ -1,0 +1,54 @@
+### Hidden ###
+#
+# not for publication yet
+.hidden/
+.todo/
+
+### Large, misc. & OS specific ###
+#
+#data files
+data_files/
+mnist/
+*.bin
+.bin
+
+### Machine specific and temperary files ###
+# builds, compilations, logs, etc.
+#
+# temps and logs
+dump/
+logs/
+#
+# OS specific files
+desktop.ini
+#
+# Builds, compilations, etc.
+build/
+target/
+out/
+src/app/*.html
+#
+# Java
+*.class
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+!.idea/compiler.xml
+
+### GRADLE ###
+# Gradle project specific hash directory
+.gradle/ 
+# Gradle wrapper
+!gradle/
+!gradlew*
+!gradlew.bat*
+
+### Maven ###
+# Maven project specific hash directory
+# Maven wrapper
+!.mvn/wrapper/maven-wrapper.jar
+!mvnw*
+!mvnw.bat*
